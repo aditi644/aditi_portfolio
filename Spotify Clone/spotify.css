@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tiny5&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+   margin: 0;
+   padding: 0; 
+}
+
+body{
+    background-color:antiquewhite;
+}
+
+nav{
+    font-family: "Tiny5", sans-serif;
+    color: aliceblue;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 80px;
+    background-color: black;
+    align-items: center;
+}
+
+nav ul li{
+    padding-left: 20px;
+}
+
+#spotify_logo{
+   height: 80px;
+   width: 80px;
+}
+
+#title{
+    font-family: "Roboto Condensed", sans-serif;
+    padding-left: 20px;
+}
+
+.container{
+    min-height: 80vh;
+    background-color: black;
+    color: white;
+    font-family: 'Tiny5', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url(anime_scene.jpg);
+    background-size: contain;
+    
+}
+
+.bottom{
+    height: 120px;
+    position: sticky;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    bottom: 0px;
+}
+
+.icons{
+    margin-top: 0px;
+}
+
+.icons img {
+    cursor: pointer;
+}
+
+#myprogressbar{
+    width: 80vw;
+    
+}
+
+.songitems{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    width: 80%;
+    color: black;
+    margin: 20px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songitems img{
+    width: 43px;
+    margin: 0 23px;
+}
+
+.timestamp{
+    margin: 0 23px;
+}
+
+.timestamp img{
+    cursor: pointer;
+}
+
+.songinfo{
+    position: absolute;
+    left: 0;
+    color: aliceblue;
+}
+
+.songinfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+
+
+
